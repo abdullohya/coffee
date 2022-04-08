@@ -88,7 +88,7 @@ body {
 }
 
 .header-link {
-    padding: 8px 15px;
+    padding: 8px 0 8px 15px;
     text-decoration: none;
     font-family: 'Barlow';
     font-style: normal;
@@ -96,4 +96,53 @@ body {
     font-size: 12px;
     line-height: 15px;
     color: #83888F;
+}
+
+/* FINISH-HEADER */
+/* MAIN */
+/* HERO-SECTION */
+.conteiner-hero {
+    padding: 117px 0 116pxc 85px;
+    background-color: rgba(151, 151, 151, 1);
+    border-radius: 5px;
+}
+
+.hero-heading {
+    margin: 0 0 30px;
+    width: 493px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero-desc {
+    margin: 0 0 56px;
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.hero-link {
+    padding: 15px 31px;
+    width: 217px;
+    height: 56px;
+    background-color: rgba(14, 135, 132, 1);
+    border: 2px solid rgba(14, 135, 132, 1);
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
 }
